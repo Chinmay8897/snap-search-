@@ -69,15 +69,6 @@ class InputGUI:
         
         
 
-     
-        photo_image = ImageTk.PhotoImage(image)
-        
-        self.image_canvas = tk.Canvas(photo_image, width=60, height=40)
-        self.image_canvas.pack()
-
-        self.text_box.image_create(tk.END, image=photo_image)
-
-        
         print(user_input)
 
         self.root.destroy()
